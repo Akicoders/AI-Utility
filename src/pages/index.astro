@@ -1,8 +1,7 @@
 ---
-
+	import App  from '../components/image_to_image.jsx'
 ---
-
-<html lang="en">
+<html lang="es" class="dark">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/icon.png" />
@@ -75,19 +74,7 @@
 		<i class="fa-solid fa-gear fa-spin mt-5 text-3xl"  style="color: #ffffff;"></i>
 	</section>
 
-	<section class="flex flex-col justify-start items-center bg-black text-white h-screen text-center " id="image_to_image" >
-		<h1 class="text-4xl p-5 text-teal-300 " > Generate an image with an image </h1>
-		<div class=" flex flex-row flex-grow w-full">
-			<div class=" flex w-full justify-center">
-				<h2 class="text-3xl"> Insert Image </h2>
-			</div>
+	<App client:load />
 
-			<div class= "flex w-full justify-center">
-				<h2 class="text-3xl"> Result </h2>
-			</div>
-		</div>
-	</section>
-
-
-	</body>
+</body>
 </html>
